@@ -285,10 +285,10 @@ p.mb-0 tm-color-gray {
 }
 /*make copyright text smaller responsively*/
 .mb-0{
-  font-size: 0.95vw;
+  font-size: 1.2vw;
 }
 .mb--0 {
-  font-size: 0.95vw;
+  font-size: 1.2vw;
 }
 
 .tm-section-half {
