@@ -182,8 +182,9 @@ p.mb-0 tm-color-gray {
   font-size: 2.6vw; /*responsive menu*/
 }
 
+/*margin at the bottom when window maximised. Originally 160px*/
 .tm-main-nav {
-  margin-bottom: 160px;
+  margin-bottom: 40px;
 }
 
 .tm-white-rect {
