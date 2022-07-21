@@ -37,7 +37,14 @@ a {
   font-weight:bold; /*made bold and added margin*/
   margin-left: 5px;
 }
+a{
+  color: #333;
+}
 
+a:hover {
+  color: #333;
+
+}
 .tm-color-gray {
   color: #333;
 }
