@@ -615,10 +615,10 @@ div.tm-flex-item-left {
 
 */
 /*adding margin and padding for my art*/
-.row tm-section {
+div.col-12{
   margin-left:50px;
   padding-left: 20px;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 a.tiles{
