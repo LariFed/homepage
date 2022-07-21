@@ -900,8 +900,9 @@ figure.effect-bubbaw:hover p {
     padding: 20px 30px;
   }
 
+ /*push main-nav closer to bottom when minimised. originally 60px*/
   .tm-main-nav {
-    margin-bottom: 60px;
+    margin-bottom: 160px;
   }
 
   .tm-social-links {
