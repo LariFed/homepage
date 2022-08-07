@@ -614,12 +614,7 @@ div.tm-flex-item-left {
   https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/
 
 */
-/*adding margin and padding for my art*/
-div.col-12{
-  margin-left:50px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 
 a.tiles{
     color: #fff;
