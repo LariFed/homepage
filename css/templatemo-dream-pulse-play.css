@@ -965,12 +965,30 @@ figure.effect-bubbaw:hover p {
 }
 
 @media (max-width: 554px) {
+  .tm-main-nav > li > a{
+  font-size: 3vw;
+}
+
+h1.tm-brand.text-uppercase{
+  font-size:3vw;
+}
+  
+  
   .tm-section {
     padding: 15px;
   }
 }
 
 @media (max-width: 383px) {
+  .tm-main-nav > li > a{
+  font-size: 3vw;
+}
+
+h1.tm-brand.text-uppercase{
+  font-size:3vw;
+}
+  
+  
   .slick-dots {
     bottom: -40px;
   }
