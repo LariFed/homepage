@@ -37,21 +37,26 @@ a {
   font-weight:bold; /*made bold and added margin*/
   margin-left: 5px;
 }
-a{
-  color: #333;
-}
 
-a:hover {
-  color: #333;
-
-}
 .tm-color-gray {
   color: #333;
 }
 
 .pub-title {
     font-style: italic;
+    font-weight:bold;
+    color: #333;
 }
+
+/*makes links more apparent
+a.pub-title {
+  color: #98999a;
+  text-decoration:underline;
+  animation-name: blinker;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}*/
 
 /*make final paragraph smaller*/
 p.mb-0 tm-color-gray {
@@ -93,6 +98,8 @@ p.mb-0 tm-color-gray {
   align-items: center;
   height: auto;
   max-width: 1275px;
+  /*padding: 66px 30px 66px 30px;
+   original padding top & bottom 66px, right & left 60px. Order: t r b l*/
   padding: 66px 60px;
   background-color: rgb(228, 210, 186); 
 
@@ -230,7 +237,7 @@ p.mb-0 tm-color-gray {
 .nav-link:hover .tm-white-rect {
   opacity: 1;
 }
-
+mb--0 mb-2
 .tm-main-nav .nav-link:hover {
   animation-name: blinker;
   animation-duration: 0.5s;
@@ -615,6 +622,13 @@ div.tm-flex-item-left {
 
 */
 
+/*adding margin and padding for my art
+.row tm-section {
+div.col-12{
+  margin-left:50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}*/
 
 a.tiles{
     color: #fff;
@@ -783,9 +797,15 @@ figure.effect-bubbaw:hover p {
   transform: translate3d(0, 0, 0);
 }
   
+
   /* 
  Contact form
+ Move box on the left further right:
 */
+/* 
+div.col-xl-6 mb-5{
+  margin-left:50px;
+}*/
 
 .tm-contact-form-wrap {
   display: flex;
@@ -895,11 +915,11 @@ figure.effect-bubbaw:hover p {
     padding: 20px 30px;
   }
 
- /*push main-nav closer to bottom when minimised. originally 60px*/
+/*push main-nav closer to bottom when minimised. originally 60px*/
   .tm-main-nav {
     margin-bottom: 160px;
   }
-
+/*push social links closer to bottom when minimised. originally 30px*/
   .tm-social-links {
     margin-bottom: 30px;
   }
@@ -957,6 +977,7 @@ figure.effect-bubbaw:hover p {
     line-height: 1.5;
   }
 }
+
 @media (1600px < width < 1921px) {
   .tm-sidebar {
     width: 30%;
@@ -986,6 +1007,13 @@ h1.tm-brand.text-uppercase{
   font-size:2vw;
 }
 }
+/*.row tm-section-pad{
+ margin-right:-60px;
+}*/
+
+
+
+
 @media (max-width: 767px) {
   .tm-section {
     padding: 30px;
@@ -993,30 +1021,35 @@ h1.tm-brand.text-uppercase{
 }
 
 @media (max-width: 554px) {
-  .tm-main-nav > li > a{
+  .nav-link{
+    
+    font-size: 6vw;
+}
+
+.tm-main-nav > li > a{
   font-size: 3vw;
 }
 
 h1.tm-brand.text-uppercase{
   font-size:3vw;
 }
-  
-  
+
   .tm-section {
     padding: 15px;
   }
 }
 
 @media (max-width: 383px) {
+  
   .tm-main-nav > li > a{
-  font-size: 3vw;
-}
+    font-size: 3vw;
+  }
+  
+  h1.tm-brand.text-uppercase{
+    font-size:3vw;
+  }
+  
 
-h1.tm-brand.text-uppercase{
-  font-size:3vw;
-}
-  
-  
   .slick-dots {
     bottom: -40px;
   }
